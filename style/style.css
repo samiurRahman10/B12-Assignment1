@@ -1,12 +1,19 @@
 .raleway-font1 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
+
+.inter-font2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 /* Shared Style */
-.btn-primary
-{
+.btn-primary {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
@@ -15,42 +22,77 @@
     border: none;
     border-radius: 8px;
 }
-.btn-primary:hover
-{
-    background-color:black;
+
+.btn-primary:hover {
+    background-color: black;
 }
+
+.primary-color {
+    color: #4E47FF;
+}
+
 /* Nav */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 150px;
-  max-width: 1140px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
-nav>h5{
+
+nav>h5 {
     font-size: 35px;
     font-weight: bold;
     color: #4E47FF;
 }
-.banner
-{
+
+.banner {
     max-width: 905px;
     margin: 100px 267px 152px 267px;
 }
-.banner-content
-{
+
+.banner-content {
     font-weight: bold;
     font-size: 65px;
     text-align: center;
     margin-bottom: 37px;
 }
-.btn-banner{
+
+.btn-banner {
     display: flex;
     margin: 0 auto;
 }
-.headerr
-{
+
+.headerr {
     background-image: url(../Assets/Hero-bg.png);
     height: 650px;
+}
+
+/* Productive Section */
+.productive {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+    margin-top: 116px;
+}
+
+.productive-heading {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.productive-card-heading {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.productive-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
 }
