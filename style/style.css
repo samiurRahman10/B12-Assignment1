@@ -39,7 +39,10 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.form-btn
+{
+    width: 540px;
+}
 /* Nav */
 nav {
     display: flex;
@@ -165,4 +168,39 @@ nav>h5 {
 
 .inside-star-card-container-img {
     border-radius: 360px;
+}
+/* Form Section */
+.form
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    margin-top: 117px;
+}
+.form-header
+{
+    font-weight: bold;
+    font-size: 97px;
+    align-items: center;
+}
+input[type="email"],input[type="text"],textarea
+{
+    height: 50px;
+    width: 497px;
+    padding: 20px;
+    border: none;
+    background-color: aliceblue;
+    display: block;
+    margin-bottom: 25px;
+
+}
+textarea
+{
+    height: 130px;
+    width: 497px;
+    padding: 20px;
+    border: none;
+    background-color: aliceblue;
+    display: block;
+    margin-bottom: 25px;
 }
