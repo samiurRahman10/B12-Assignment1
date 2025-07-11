@@ -176,6 +176,7 @@ nav>h5 {
     justify-content: space-between;
     gap: 115px;
     margin-top: 117px;
+    margin-bottom: 70px;
 }
 .form-header
 {
@@ -203,4 +204,36 @@ textarea
     background-color: aliceblue;
     display: block;
     margin-bottom: 25px;
+}
+footer
+{
+    height: 442px;
+    display: flex;
+    align-items: center;
+     background-color: aliceblue;
+}
+.foot
+{
+    max-width: 535px;
+    margin: 144px auto;
+}
+footer .foot h1{
+    font-weight: bold;
+    font-size: 97px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+footer .foot p{
+    text-align: center;
+}
+.link
+{
+    max-width: 450px;
+    margin: 0 auto;
+}
+footer .foot a
+{
+    text-decoration: none;
+    margin-right: 48px;
+    
 }
