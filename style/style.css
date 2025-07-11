@@ -55,7 +55,7 @@ nav {
 
 nav>h5 {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #4E47FF;
 }
 
@@ -193,6 +193,7 @@ input[type="email"],input[type="text"],textarea
     background-color: aliceblue;
     display: block;
     margin-bottom: 25px;
+    border-radius: 10px;
 
 }
 textarea
@@ -204,6 +205,7 @@ textarea
     background-color: aliceblue;
     display: block;
     margin-bottom: 25px;
+    border-radius: 10px;
 }
 footer
 {
