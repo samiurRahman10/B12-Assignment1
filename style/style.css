@@ -61,7 +61,8 @@ nav>h5 {
 
 .banner {
     max-width: 905px;
-    margin: 100px 267px 152px 267px;
+    /* margin: 100px 267px 152px 267px; */
+    margin: 100px auto;
 }
 
 .banner-content {
